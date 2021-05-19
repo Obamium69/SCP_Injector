@@ -52,6 +52,6 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
       with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: D:\a\Cum\Cum\Release\Osiris.dll
-          asset_name: SCP.dll
-          asset_content_type: application/dll
+          asset_path: D:\a\SCP_Injector\SCP_Injector\Release\curiuminjector-csgo.exe
+          asset_name: SCP.exe
+          asset_content_type: application/exe
