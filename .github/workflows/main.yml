@@ -42,7 +42,7 @@ jobs:
         draft: false
         prerelease: false
         release_name: ${{ steps.version.outputs.version }}
-        tag_name: Release
+        tag_name: ${{ steps.tag_version.outputs.new_tag }}
         body_path: version.md
       env:
           GITHUB_TOKEN: ${{ github.token }}
