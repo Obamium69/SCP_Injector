@@ -3,7 +3,7 @@
 // Junk code to make injector undetected
 #include "JunkCode.h"
 
-#define DLL_NAME "SCP.dll"
+#define DLL_NAME "Cum.dll"
 
 // And you need:
 // 1. change all bytes(0x00, 0x01, 0x03....) in define "JUNKS" to random bytes
@@ -11,7 +11,7 @@
 #define JUNKS \
 __asm _emit 0x89 \
 __asm _emit 0x68 \
-__asm _emit 0x80 \
+__asm _emit 0x20 \
 __asm _emit 0x32 \
 __asm _emit 0x12 \
 __asm _emit 0x98 \
@@ -22,23 +22,23 @@ __asm _emit 0x22 \
 __asm _emit 0x56 \
 __asm _emit 0x67 \
 __asm _emit 0x35 \
-__asm _emit 0x46 \
+__asm _emit 0x66 \
 __asm _emit 0x53 \
 __asm _emit 0x64 \
 __asm _emit 0x54 \
 __asm _emit 0x72 \
-__asm _emit 0x84 \
-__asm _emit 0x92 \
+__asm _emit 0x34 \
+__asm _emit 0x22 \
 __asm _emit 0x12 \
 __asm _emit 0x46 \
-__asm _emit 0x90 \
+__asm _emit 0x91 \
 __asm _emit 0x82 \
-__asm _emit 0x06 \
+__asm _emit 0x05 \
 __asm _emit 0x97 \
-__asm _emit 0x59 \
+__asm _emit 0x53 \
 __asm _emit 0x23 \
 __asm _emit 0x10 \
-__asm _emit 0x63 \
+__asm _emit 0x62 \
 __asm _emit 0x64 \
 __asm _emit 0x95 \
 __asm _emit 0x74 \
